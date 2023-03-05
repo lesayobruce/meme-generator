@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 export default function LandingPage() {
     return (
         <header className= "LandingPage-body" style={ HeaderStyle }>
@@ -17,6 +18,8 @@ export default function LandingPage() {
         </header>
     )
 }
+
+
 const HeaderStyle = {
     width: "100%",
     height: "100vh",
